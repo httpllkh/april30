@@ -1,5 +1,5 @@
 body {
-	background: url(https://images.wallpaperscraft.ru/image/single/kofe_kniga_ochki_140830_1920x1080.jpg);
+	background-image: url(k.jpg);
 	font-family: sans-serif;
 }
 
@@ -29,23 +29,21 @@ body {
 .input-form input {
 	padding: 10px;
 	width: 100%;
-	color: #fff;
+	color: #fff ;
 	font-size: 20px;
 	background: none;
 	outline: none;
-	border: 1px solid #fff;
 	box-sizing: border-box;
 }
 
-.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
-	border: 1px solid #964b00;
+
+.input-form button[type="submit"]{
+	text-transform: uppercase;
+	font-size: 24px;
 }
 
-.input-form input[type="submit"] {
-	margin-top: 20px;
-	color: #000;
-	font-weight: bold;
-	text-transform: uppercase;
-	background: #E0CFB1;
+.button {font-size: 24px;}
 
+.enter {
+	width: 100px;
 }
